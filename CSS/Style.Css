@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #F2F2F4;
+    font-family:"B Yekan";
+}
+
+.Header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: solid 5px #B9B9BA;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Header img{
+    width: 60px;
+    /* height: 75px; */
+    margin-right: 50px;
+}
+.Header input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: large;
+    background-color: #F5F5F7;
+}
+.Header a{
+    margin-left: 60px;
+    width: 40px;
+}
+.Header div{
+    display: flex;
+    margin-left: 20px;
+}
+#Login{
+    background-color: #F5F5F7;
+    border-radius: 15px;
+    border: solid 5px #EEEEEE;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: #6F6F70;
+}
+#Login:hover{
+    background-color: #EEEEEE;
+}
+#Signup{
+    background-color: #0364FF;
+    border-radius: 15px;
+    border: solid 5px #0661FF;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: white;
+}
+#Signup:hover{
+    background-color: #004dc8;
+    border: solid 5px #004dc8;
+}
+
+
+/* Banner CSS */
+
+.Banner{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Banner div{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Banner{
+    border-radius: 30px;
+}
+#UnderBanner{
+    width: 150px;
+}
+
+
+
+
+/* Footer */
+
+.Footer{
+    height: 300px;
+    width: auto;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+#IconFooter{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+#Enamad{
+    margin-right: 50px;
+    width: 150px;
+}
+.Copyright{
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: "Dubai";
+}
+
+
+/* Shop */
+
+.ContainerShop{
+    width: auto;
+    height: 1000px;
+    background-color: #d0d0d0;
+    box-sizing: border-box;
+}
+.ContainerShop h1{
+    margin-right: 800px;
+    padding-top: 50px;
+}
+.TopGames{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+    height: 800px;
+}
+.ListGames{
+    display: flex;
+    margin-top: 75px;
+    width: 850px;
+    height: 175px;
+    background-color: #f8f8f8;
+    justify-content: space-between;
+    font-family: "Dubai";
+    border-radius: 40px;
+    border: solid 3px #959595;
+}
+.ListGames div{
+    height: 170px;
+    width: 260px;
+}
+.ButtonLeft{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: "B Yekan";
+    font-size: large;
+    background-color: #A9FBC3;
+    border: solid 2px #34fb73;
+    color: #509454;
+    border-radius: 20px;
+}
+.ButtonLeft:hover{
+    background-color: #2bfb6d;
+    color: #000000;
+}
+
+.ButtonRight{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: "B Yekan";
+    font-size: large;
+    background-color: #A9FBC3;
+    border: solid 2px #34fb73;
+    color: #509454;
+    border-radius: 20px;
+}
+.ButtonRight:hover{
+    background-color: #2bfb6d;
+    color: #000000;
+}
+.Price{
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.Price del{
+    margin-top: 20px;
+}
+.H2ListGames{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.LeftGameIcon{
+    margin-right: 20px;
+}
+.RightGameIcon{
+    margin-left: 20px;
+}

@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-color: #015EFF;
+    font-family:"Vazir";
+}
+
+.Header{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    width: auto;
+    height: 100px;
+    background-color: #ffffff;
+    border-bottom: solid 5px #B9B9BA;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Header img{
+    width: 60px;
+    /* height: 75px; */
+    margin-right: 50px;
+}
+.Header input{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: large;
+    background-color: #F5F5F7;
+}
+.Header a{
+    margin-left: 60px;
+    width: 40px;
+}
+.Header div{
+    display: flex;
+    margin-left: 20px;
+}
+#Login{
+    background-color: #F5F5F7;
+    border-radius: 15px;
+    border: solid 5px #EEEEEE;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: #6F6F70;
+}
+#Login:hover{
+    background-color: #EEEEEE;
+}
+#Signup{
+    background-color: #0364FF;
+    border-radius: 15px;
+    border: solid 5px #0661FF;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: white;
+}
+#Signup:hover{
+    background-color: #004dc8;
+    border: solid 5px #004dc8;
+}
+
+/* Payment */
+
+.Container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+
+.Payment{
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+}
+
+.PaymentInformation{
+    width: 650px;
+    height: auto;
+    margin-top: 35px;
+}
+
+.Item{
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-left: solid rgb(67, 67, 67) 3px;
+}
+
+.GameIcon{
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.GameIcon img{
+    width: 180px;
+}
+
+.Detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.Des{
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+    font-size: 18px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.Description{
+    display: flex;
+    width: 150px;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+
+
+.PayDiv{
+    border-top: dotted black 2px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.SubmitBTN{
+    width: 580px;
+    height: 50px;
+    background-color: #004dc8;
+    border-radius: 25px;
+    border: none;
+    font-family: "Vazir";
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-top: 30px;
+    margin-right: -9px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.Info{
+    display: flex;
+    width: auto;
+    height: 170px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+.Info img{
+    padding-top: 3px;
+    padding-left: 3px;
+    width: 170px;
+}
+
+.PaymentCard{
+    direction: ltr;
+}
+
+.InputForm{
+    margin-left: 20px;
+    width: 450px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: large;
+    font-family: "Vazir";
+    direction: ltr;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.InputDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 60px;
+}
+#BtnPassPoya{
+    margin-left: 15px;
+    height: 50px;
+    background-color: #004dc8;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: "Vazir";
+}
+
+.Success{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Vazir";
+    font-weight: bold;
+    border-radius: 60px;
+    margin-right: 165px;
+}
+
+.Failed{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Vazir";
+    font-weight: bold;
+    border-radius: 60px;
+    margin-right: 165px;
+}

@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #3E28CF;
+    direction: rtl;
+}
+
+.SignUpContainer{
+    background-color: #3E28CF;
+    width: auto;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpDiv{
+    background-color: #3E28CF;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    border: double 10px #00000073;
+}
+
+.SignUpDiv div{
+    width: 500px;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Dubai";
+    
+}
+.Title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* line-height: 600px; */
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: "Dubai";
+    background-color: #4934d6;
+}
+
+
+.Input{
+    margin-top: 20px;
+    margin-right: 70px;
+    font-family: "Dubai";
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-bottom: solid 3px black ;
+}
+
+#Signup{
+    margin-top: 35px;
+    background-color: #4934d6;
+    border-radius: 15px;
+    border: solid 5px #4934d6;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: white;
+}
+#Signup:hover{
+    background-color: #3d2cad;
+    border: solid 5px #3d2cad;
+}
+
+.ForgetPass{
+    padding-top: 5px;
+    color: black;
+    padding-left: 235px;
+    text-decoration: none;
+    font-family: "Vazir";
+}
+
+.SubmitBTN{
+    margin-top: 35px;
+    margin-right: 170px;
+    background-color: #4934d6;
+    border-radius: 15px;
+    border: solid 5px #4934d6;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "B Yekan";
+    color: white;
+}
+
+.ForgetPassDiv{
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#FailedDiv{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    font-family: "Vazir";
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 60px;
+}
+#SucssesDiv{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    font-family: "Vazir";
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 60px;
+}
